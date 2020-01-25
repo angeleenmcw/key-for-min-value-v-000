@@ -8,6 +8,6 @@ name_hash = {
   "plants" => 17
   }
   
-key_for_min_value.each do |minimum|
+key_for_min_value.sort_by
   
 end
