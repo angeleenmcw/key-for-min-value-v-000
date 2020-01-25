@@ -7,6 +7,6 @@ name_hash = {
   "drinks" => 6,
   "plants" => 17
   }
-  
+  min_value = min
   
 end
