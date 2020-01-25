@@ -7,6 +7,7 @@ name_hash = {
   "drinks" => 6,
   "plants" => 17
   }
-  min_value = name_hash[1]
+  min_value = name_hash.first[1]
+  min_key = name_hash.first[0]
   
 end
