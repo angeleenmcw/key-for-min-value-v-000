@@ -6,7 +6,8 @@ name_hash = {
   "plants" => 17
   }
 def key_for_min_value(name_hash)
-  name_hash.sort do |key, value|
+  if name_hash
+    name_hash.sort do |key, value|
     key <=> value
   end.first[0]
 end
