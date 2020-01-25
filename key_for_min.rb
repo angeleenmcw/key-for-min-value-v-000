@@ -8,6 +8,5 @@ name_hash = {
   "plants" => 17
   }
   
-key_for_min_value.sort_by
   
 end
