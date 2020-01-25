@@ -7,6 +7,8 @@ name_hash = {
   "drinks" => 6,
   "plants" => 17
   }
+  if name_hash = {}
+    nil
   min_value = name_hash.first[1]
   min_key = name_hash.first[0]
   name_hash.each do |key, value|
@@ -14,6 +16,7 @@ name_hash = {
       min_value = value
       min_key = key
     end
+  end
   min_key
   end
 end
