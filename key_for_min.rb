@@ -15,5 +15,6 @@ name_hash = {
       min_key = key
     end
   end
+  min_key
   
 end
