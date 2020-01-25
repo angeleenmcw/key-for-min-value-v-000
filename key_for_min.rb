@@ -7,4 +7,6 @@ name_hash = {
   }
 def key_for_min_value(name_hash)
   name_hash.sort do |key, value|
-    
+    key <=> value
+  end
+end
